@@ -27,5 +27,26 @@ class MyClass2{
         console.log(('hello world'))
     }
 }
-MyClass2.hello();
+// MyClass2.hello();
+
+// class inheritance
+// parent class and child class
+class Parent{
+    hello1(params){
+        console.log("Hello 1 Function");
+    }
+    hello2(params){
+        console.log("Hello 2 Function");
+    }
+    hello3(params){
+        console.log("Hello 3 Function");
+    }
+}
+
+class Child extends Parent{
+
+}
+
+var obj1 = new Child();
+obj1.hello1();
 

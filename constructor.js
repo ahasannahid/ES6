@@ -42,11 +42,14 @@ class Parent{
         console.log("Hello 3 Function");
     }
 }
-
 class Child extends Parent{
-
+    // method overriding
+    hello3(params){
+        console.log("Hello 3 Function overriding");
+    }
 }
-
 var obj1 = new Child();
-obj1.hello1();
+obj1.hello3();
+var obj2 = new Parent();
+obj2.hello3();
 

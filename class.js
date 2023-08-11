@@ -1,13 +1,13 @@
 class MyClass{
 
-    myFun() {
-        console.log('Hello from function inside class');
+    myFun(name) {
+        console.log(name);
     }
-    myFun1() {
-        console.log('Hello from function inside class');
+    myFun1(name) {
+        console.log(name);
     }
-    myFun2() {
-        console.log('Hello from function inside class');
+    myFun2(name) {
+        console.log(name);
     }
     myFun3() {
         console.log('Hello from function inside class');
@@ -16,4 +16,4 @@ class MyClass{
 
 var obj = new MyClass;
 
-obj.myFun();
+obj.myFun('Hello Bangladesh');
